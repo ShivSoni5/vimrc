@@ -1,10 +1,10 @@
 # vimrc
 
-## Set up [Vundle]
+### Set up [Vundle]
 
 ` git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-## Configure Plugins
+### Configure Plugins
 
 Put this at the top of your `.vimrc` to use Vundle.
 
@@ -19,9 +19,14 @@ Plugin 'VundleVim/Vundle.vim'
 call vundle#end()            
 filetype plugin indent on
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
+" filetype plugin on
 
 " Put your non-Plugin stuff after this line
 ```
+
+### Install Plugins
+
+Launch `vim` and run `:PluginInstall`
+To install from command line: `vim +PluginInstall +qall`
 
 [Vundle]:http://github.com/VundleVim/Vundle.vim
