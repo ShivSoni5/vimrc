@@ -30,9 +30,9 @@ Launch `vim` and run `:PluginInstall`
 
 To install from command line: `vim +PluginInstall +qall`
 
-# local vimrc
+# Localvimrc
 
-Used to load subdirectory specific vimrc file.
+[Localvimrc] is a vim plugin used to load subdirectory specific vimrc file.
 
 This plugin searches for local vimrc files in the file system tree of the currently opened file. By default it searches for all ".lvimrc" files from the file's directory up to the root directory and loads them in reverse order.
 
