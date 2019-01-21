@@ -30,4 +30,30 @@ Launch `vim` and run `:PluginInstall`
 
 To install from command line: `vim +PluginInstall +qall`
 
+# local vimrc
+
+Used to load subdirectory specific vimrc file.
+
+### Download
+
+Click to download the package [vimball].
+
+### Installation
+
+Open the downloaded vimball
+
+`vim localvimrc.vmb`
+
+Source it using -
+
+`:so %`
+
+Then restart your vim.
+
+### Some useful resources
+
+[Localvimrc](https://www.vim.org/scripts/script.php?script_id=441)
+[Github](https://github.com/embear/vim-localvimrc)
+
 [Vundle]:http://github.com/VundleVim/Vundle.vim
+[vimball]:https://www.vim.org/scripts/download_script.php?src_id=26187
