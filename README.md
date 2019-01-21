@@ -34,6 +34,8 @@ To install from command line: `vim +PluginInstall +qall`
 
 Used to load subdirectory specific vimrc file.
 
+This plugin searches for local vimrc files in the file system tree of the currently opened file. By default it searches for all ".lvimrc" files from the file's directory up to the root directory and loads them in reverse order.
+
 ### Download
 
 Click to download the package [vimball].
@@ -53,6 +55,7 @@ Then restart your vim.
 ### Some useful resources
 
 [Localvimrc](https://www.vim.org/scripts/script.php?script_id=441)
+
 [Github](https://github.com/embear/vim-localvimrc)
 
 [Vundle]:http://github.com/VundleVim/Vundle.vim
