@@ -54,9 +54,10 @@ Then restart your vim.
 
 ### Some useful resources
 
-[Localvimrc](https://www.vim.org/scripts/script.php?script_id=441)
+[Localvimrc]
 
 [Github](https://github.com/embear/vim-localvimrc)
 
 [Vundle]:http://github.com/VundleVim/Vundle.vim
+[Localvimrc]:https://www.vim.org/scripts/script.php?script_id=441
 [vimball]:https://www.vim.org/scripts/download_script.php?src_id=26187
