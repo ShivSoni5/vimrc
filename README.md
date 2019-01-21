@@ -27,6 +27,7 @@ filetype plugin indent on
 ### Install Plugins
 
 Launch `vim` and run `:PluginInstall`
+
 To install from command line: `vim +PluginInstall +qall`
 
 [Vundle]:http://github.com/VundleVim/Vundle.vim
