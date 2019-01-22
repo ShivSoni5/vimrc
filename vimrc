@@ -15,6 +15,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
+Plugin 'valloric/youcompleteme'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'itchyny/lightline.vim'
@@ -49,11 +51,18 @@ filetype plugin indent on    " required
 let g:localvimrc_reverse=0
 let g:localvimrc_sandbox=0
 let g:localvimrc_ask=0
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_show_diagnostics_ui = 1
+let g:ycm_enable_diagnostic_signs = 0 
+let g:ycm_enable_diagnostic_highlighting = 0
+" let g:ycm_allow_changing_updatetime = 0
 set noshowmode
 set laststatus=2
 set background=light
 set number
 highlight LineNr ctermfg=grey
+" highlight YcmErrorLine guibg=#ff0000
+" highlight YcmWarningLine guibg=#ffff33
 
 let g:lightline = {
       \'active': {
