@@ -60,6 +60,8 @@ set noshowmode
 set laststatus=2
 set background=light
 set number
+set noswapfile
+set so=7  " show 7 line above cursor and below cursor while scrolling
 highlight LineNr ctermfg=grey
 " highlight YcmErrorLine guibg=#ff0000
 " highlight YcmWarningLine guibg=#ffff33
