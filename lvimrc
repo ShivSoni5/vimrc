@@ -1,2 +1,2 @@
-nnoremap <silent> <f7> :!clear;make %<<cr>
-nnoremap <silent> <f8> :!clear;./%<<cr>
+nnoremap <silent> <f7> :!clear;make %<;mv ./%< ./%<.out<cr>
+nnoremap <silent> <f8> :!clear;./%<.out<cr>
