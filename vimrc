@@ -20,6 +20,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'itchyny/lightline.vim'
+Plugin 'kristijanhusak/vim-carbon-now-sh'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -80,3 +81,4 @@ let g:lightline = {
       \ }
 
 map <C-o> :NERDTreeToggle<CR>
+vnoremap <F5> :CarbonNowSh<CR>
