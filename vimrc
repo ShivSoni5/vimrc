@@ -82,3 +82,4 @@ let g:lightline = {
 
 map <C-o> :NERDTreeToggle<CR>
 vnoremap <F5> :CarbonNowSh<CR>
+autocmd BufNewFile,BufRead *.c set formatprg=astyle\ -T8Fjpxg
