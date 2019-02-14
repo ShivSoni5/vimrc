@@ -1,14 +1,12 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-export PATH="$PATH:$HOME/bin"
 
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
       *) return;;
 esac
-
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -117,12 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-source /home/raj/.local/bin/activate.sh
-export PROJECT_HOME=$HOME/Documents
+
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/home/raj/.local/bin/virtualenv
 source /home/raj/.local/bin/virtualenvwrapper.sh
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
