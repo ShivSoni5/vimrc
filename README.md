@@ -30,6 +30,10 @@ Launch `vim` and run `:PluginInstall`
 
 To install from command line: `vim +PluginInstall +qall`
 
+## YouCompleteMe
+
+YCM is an auto-completetion engine for Vim.
+
 # Localvimrc
 
 [Localvimrc] is a vim plugin used to load subdirectory specific vimrc file.
