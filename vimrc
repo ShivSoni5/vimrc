@@ -15,12 +15,12 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
-Plugin 'valloric/youcompleteme'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kristijanhusak/vim-carbon-now-sh'
+Plugin 'valloric/youcompleteme'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -83,3 +83,4 @@ let g:lightline = {
 map <C-o> :NERDTreeToggle<CR>
 vnoremap <F5> :CarbonNowSh<CR>
 autocmd BufNewFile,BufRead *.c set formatprg=astyle\ -T8Fjpxg
+nnoremap <silent> <F1> :!pandoc % > /tmp/any; w3m -T text/html -o confirm_qq=0 /tmp/any<cr>
