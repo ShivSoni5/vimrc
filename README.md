@@ -32,7 +32,7 @@ To install from command line: `vim +PluginInstall +qall`
 
 ## YouCompleteMe
 
-YCM is an auto-completetion engine for Vim.
+YCM is an auto-completion engine for Vim.
 
 # Localvimrc
 
